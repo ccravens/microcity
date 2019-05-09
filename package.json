@@ -1,0 +1,36 @@
+{
+  "name": "microcity",
+  "version": "1.0.0",
+  "description": "Microcity - A framework for microservices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccravens/microcity.git"
+  },
+  "keywords": [
+    "Microservices",
+    "Framework",
+    "Node",
+    "Typescript"
+  ],
+  "author": "Chad Cravens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccravens/microcity/issues"
+  },
+  "homepage": "https://github.com/ccravens/microcity#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/pluralize": "0.0.29",
+    "pluralize": "^7.0.0"
+  }
+}
